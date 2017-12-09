@@ -18,8 +18,19 @@ html {
   box-sizing: inherit;
 }
 
-article {
+body {
   max-width: 43em;
+  font-family: "Crimson Text", serif;
+}
+
+article {
+  max-width: 33em;
+  transform: translate(50%);
+  line-height: 1.3;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-size: 100%;
+  margin: 0 0 1.3rem;
 }
 
 article h1 {
@@ -46,4 +57,121 @@ blockquote {
 
 .quote {
   color: #999;
+}
+
+@media only screen and (min-width: 25em) {
+
+  article {
+    max-width: 43em;
+    transform: translate(50%);
+    line-height: 1.3;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 100%;
+    margin: 0 0 1.3rem;
+  }
+
+  article h1 {
+    font-weight: normal;
+  }
+
+  article header {
+    border-bottom: 1px solid #999;
+  }
+
+  article header p {
+    font-style: italic;
+  }
+
+  article > p:last-child {
+    border-bottom: 1px solid #999;
+  }
+
+  blockquote {
+    max-width: 24em;
+    color: #555;
+    font-size: 1.125rem;
+  }
+
+  .quote {
+    color: #999;
+  }
+}
+
+@media only screen and (min-width: 38em) {
+
+  article {
+    max-width: 43em;
+    transform: translate(50%);
+    line-height: 1.4;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 110%;
+    margin: 0 0 1.4rem;
+  }
+
+  article h1 {
+    font-weight: normal;
+  }
+
+  article header {
+    border-bottom: 1px solid #999;
+  }
+
+  article header p {
+    font-style: italic;
+  }
+
+  article > p:last-child {
+    border-bottom: 1px solid #999;
+  }
+
+  blockquote {
+    max-width: 24em;
+    color: #555;
+    font-size: 1.125rem;
+  }
+
+  .quote {
+    color: #999;
+  }
+}
+
+@media only screen and (min-width: 60em) {
+
+  article {
+    max-width: 43em;
+    transform: translate(50%);
+    line-height: 1.5;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 120%;
+    margin: 0 0 1.5rem;
+  }
+
+  article h1 {
+    font-weight: normal;
+  }
+
+  article header {
+    border-bottom: 1px solid #999;
+  }
+
+  article header p {
+    font-style: italic;
+  }
+
+  article > p:last-child {
+    border-bottom: 1px solid #999;
+  }
+
+  blockquote {
+    max-width: 24em;
+    color: #555;
+    font-size: 1.125rem;
+  }
+
+  .quote {
+    color: #999;
+  }
 }
